@@ -4,7 +4,9 @@ import { greatFloods } from "../../../../data/articles/GreatFloods";
 const greatFloodPage = () => {
 	return (
 		<>
-			<Article data={greatFloods} />
+			{/* <Article data={greatFloods} />
+			 */}
+			 <div>test</div>
 		</>
 	);
 };
