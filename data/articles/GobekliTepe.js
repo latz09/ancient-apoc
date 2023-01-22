@@ -1,5 +1,5 @@
 export const gobekliTepe = {
-	title: 'Gobekli Tepe: Proof of a ancient apocalypse?',
+	title: 'Gobekli Tepe: Proof of an ancient apocalypse?',
 	category: 'example locations',
 	content: [
 		{

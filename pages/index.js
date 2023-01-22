@@ -15,6 +15,13 @@ export default function Home() {
 			/>
 			<Section
 				allArticleCards={articleCards}
+				category={'evidence'}
+				title='Apocalyptic Evidence'
+				subtitle='Uncovering the End of the Worlds Past through Scientific Discoveries'
+				image={sectionImages.evidence}
+			/>
+			<Section
+				allArticleCards={articleCards}
 				category={'example locations'}
 				title='Apocalyptic Archaeology'
 				subtitle='Uncovering the End of the Worlds Past in Ancient Sites'
@@ -27,13 +34,7 @@ export default function Home() {
 				subtitle='Uncovering the End of the Worlds Past in Ancient Narratives'
 				image={sectionImages.ancientStory}
 			/>
-			<Section
-				allArticleCards={articleCards}
-				category={'evidence'}
-				title='Apocalyptic Evidence'
-				subtitle='Uncovering the End of the Worlds Past through Scientific Discoveries'
-				image={sectionImages.evidence}
-			/>
+			
 		</div>
 	);
 }

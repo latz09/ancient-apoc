@@ -5,27 +5,27 @@ export const singleImpact = {
 	content: [
 		{
 			paragraph: {
-				phraseToLink: '',
+				phraseToLink: 'Graham Hancock',
 				link: '',
 				text: 'Graham Hancock is a British author and researcher who has proposed the idea of a single, massive impact event that took place around 10,800 BC. He argues that this event was the cause of widespread destruction and chaos, leading to the collapse of ancient civilizations and the end of the last ice age',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Uncovering the truth behind ancient myths:  The ancient apocalypse theory - A wild ride through history', type: 'external', link: '/articles/ancient-apocalypse/ancient-apocalypse-theory' },
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '',
-				text: 'Hancock believes that this event, which he calls the "Gobekli Tepe Impact Event," was responsible for the collapse of ancient civilizations such as the Clovis culture in North America and the end of the last ice age. He argues that this event was responsible for the widespread destruction and chaos that is often depicted in ancient myths and legends.',
+				phraseToLink: 'Clovis Culture',
+				link: 'https://en.wikipedia.org/wiki/Clovis_culture',
+				text: 'Hancock believes that this event, which he calls the "Gobekli Tepe Impact Event," was responsible for the collapse of ancient civilizations such as the Clovis Culture in North America and the end of the last ice age. He argues that this event was responsible for the widespread destruction and chaos that is often depicted in ancient myths and legends.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Gobekli Tepe: Proof of an ancient apocalypse?', type: 'internal', link: '/articles/ancient-apocalypse/gobekliTepe' },
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '',
+				phraseToLink: 'nanodiamonds',
+				link: 'https://en.wikipedia.org/wiki/Nanodiamond',
 				text: 'Hancocks theory is based on a variety of evidence, including the discovery of a layer of nanodiamonds in North America, which he believes is evidence of a comet or asteroid impact. He also draws on ancient myths and legends from cultures around the world, which he argues contain clues about a catastrophic event that occurred 12,000 years ago.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence', type: 'internal', link: '/articles/ancient-apocalypse/corsettis-theory' },
 		},
 		{
 			paragraph: {

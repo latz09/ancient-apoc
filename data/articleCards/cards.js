@@ -11,7 +11,7 @@ export const articleCards = [
         link: '/articles/ancient-apocalypse/ancient-apocalypse-theory'
     },
     {
-        title: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
+        title: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth Behind the Iridium Layer',
         category: 'evidence',
         tease: 'Uncover the truth behind the ancient apocalypse theory with the discovery of the "iridium layer". A smoking gun of a massive impact event that shaped human history. Click now to find out more',
         link: '/articles/ancient-apocalypse/iridiumLayer'
@@ -41,10 +41,17 @@ export const articleCards = [
         link: '/articles/ancient-apocalypse/single-impact-theory'
     },
     {
-        title: 'Gobekli Tepe: Proof of a ancient apocalypse?',
+        title: 'Gobekli Tepe: Proof of an ancient apocalypse?',
         category: 'example locations',
         tease: ' Gobekli Tepe reveals evidence of an advanced civilization that existed before the collapse caused by a massive impact event, as proposed by Graham Hancock',
         link: '/articles/ancient-apocalypse/gobekliTepe'
+    },
+  
+    {
+        title: 'The Great Extinction: The Aftermath of the Ancient Apocalypse',
+        category: 'evidence',
+        tease: 'The ancient apocalypse, also known as the K-T event, wiped out 75% of Earths species. Learn about the environmental and climatic changes that occurred after the asteroid impact and how it paved the way for the emergence of new life forms?',
+        link: '/articles/ancient-apocalypse/devestating-consequences'
     },
   
    

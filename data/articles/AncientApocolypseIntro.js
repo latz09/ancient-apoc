@@ -25,8 +25,8 @@ export const ancientApocolypseIntro = {
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '/',
+				phraseToLink: 'iridium',
+				link: 'https://en.wikipedia.org/wiki/Iridium',
 				text: 'One of the key pieces of evidence that Hancock cites in support of this theory is the widespread occurrence of a layer of sediment containing high levels of iridium, a metal that is rare on Earth but common in comets and asteroids. This layer, known as the "iridium layer," has been found at sites around the world, including in Africa, Asia, and North and South America, and is believed to be the result of a massive impact event.',
 			},
 			link: {
@@ -51,7 +51,7 @@ export const ancientApocolypseIntro = {
 			paragraph: {
 				phraseToLink: '',
 				link: '/',
-				text: 'But don not just take our word for it, Hancocks theories have been met with skepticism by experts in the field of archaeology and ancient history. They argue that there is no concrete evidence to support the idea of a global catastrophe occurring 12,000 years ago, and that the disappearance of ancient cultures is more likely to have been caused by factors such as climate change, disease, or invasion. However, Hancocks theories also have a lot of compelling evidence and it is up to you to decide what to believe.',
+				text: 'But do not just take our word for it, Hancocks theories have been met with skepticism by experts in the field of archaeology and ancient history. They argue that there is no concrete evidence to support the idea of a global catastrophe occurring 12,000 years ago, and that the disappearance of ancient cultures is more likely to have been caused by factors such as climate change, disease, or invasion. However, Hancocks theories also have a lot of compelling evidence and it is up to you to decide what to believe.',
 			},
 			link: { text: '', type: '', link: '/' },
 		},
@@ -62,6 +62,14 @@ export const ancientApocolypseIntro = {
 				text: 'The ancient apocalypse theory is definitely a wild ride, but it is one that will make you question what you know about our ancient past, and leave you wondering what other secrets are buried deep in the sands of time.',
 			},
 			link: { text: '', type: '', link: '/' },
+		},
+		{
+			paragraph: {
+				phraseToLink: '',
+				link: '/',
+				text: 'Continue the ride by exploring the stories.',
+			},
+			link: { text: 'Gobekli Tepe: Proof of an ancient apocalypse', type: 'internal', link: '/articles/ancient-apocalypse/gobekliTepe' },
 		},
 	],
 };

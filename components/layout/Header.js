@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Header = () => {
 	return (
@@ -18,7 +19,18 @@ const Header = () => {
 							{' '}
 							A collection of theories, stories and truths behind the:
 						</span>{' '}
-						<h1 className='font-bold  '>Ancient Apocalypse theory</h1>
+						<Link
+							href={'/articles/ancient-apocalypse/ancient-apocalypse-theory'}
+						>
+							<motion.h1
+								className='font-bold cursor-pointer '
+								initial={{ scale: 0.992, opacity: 0.7 }}
+								animate={{ scale: 1, opacity: 1 }}
+								transition={{duration: 1.2, repeat: Infinity, repeatType:'mirror'}}
+							>
+								Ancient Apocalypse theory
+							</motion.h1>
+						</Link>
 					</div>
 				</motion.div>
 			</div>
