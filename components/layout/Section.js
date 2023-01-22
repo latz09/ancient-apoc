@@ -5,7 +5,7 @@ const Section = ({ allArticleCards, category, title, subtitle, image }) => {
 	return (
 		<div className='grid'>
 			<SectionHeader title={title} subtitle={subtitle} image={image}/>
-			<div className="grid grid-cols-2 items-center gap-24 max-w-[90rem] mx-auto py-36">
+			<div className="grid lg:grid-cols-2 items-center gap-12 lg:gap-24 max-w-[90rem] mx-auto py-20 lg:py-36">
 				{allArticleCards
 					.filter((article) => article.category === category)
 					.map((article, index) => (
