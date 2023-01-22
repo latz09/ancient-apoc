@@ -1,6 +1,7 @@
 export const iridiumLayer = {
 	title:
 		'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
+		category: 'evidence',
 	content: [
 		{
 			paragraph: {

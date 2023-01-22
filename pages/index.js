@@ -1,25 +1,38 @@
-import Article from '../components/articles/Article';
-import { ancientApocolypseIntro } from '../data/articles/AncientApocolypseIntro';
-import { articleCards } from '../data/articleCards/cards';
-import ArticleCard from '../components/articles/ArticleCard';
+import { articleCards, sectionImages } from '../data/articleCards/cards';
+import generalSectionImage from '../public/images/Sections/general.jpg';
+import Section from '../components/layout/Section';
 
 export default function Home() {
 	return (
-		<>
-		
-			<div className='max-w-7xl mx-auto mb-16'>
-				<div className="grid lg:grid-cols-2 gap-12 place-items-center">
-					{articleCards.map((article, index) => (
-						<div key={index}>
-							<ArticleCard
-								title={article.title}
-								tease={article.tease}
-								link={article.link}
-							/>
-						</div>
-					))}
-				</div>
-			</div>
-		</>
+		<div className='grid '>
+			<Section
+				allArticleCards={articleCards}
+				category={'general'}
+				title='Apocalyptic Ancients'
+				subtitle=' Understanding the End of the Worlds Past'
+				image={sectionImages.general}
+			/>
+			<Section
+				allArticleCards={articleCards}
+				category={'example locations'}
+				title='Apocalyptic Archaeology'
+				subtitle='Uncovering the End of the Worlds Past in Ancient Sites'
+				image={sectionImages.exampleLocation}
+			/>
+			<Section
+				allArticleCards={articleCards}
+				category={'ancient stories'}
+				title='Tales of Doomsday '
+				subtitle='Uncovering the End of the Worlds Past in Ancient Narratives'
+				image={sectionImages.ancientStory}
+			/>
+			<Section
+				allArticleCards={articleCards}
+				category={'evidence'}
+				title='Apocalyptic Evidence'
+				subtitle='Uncovering the End of the Worlds Past through Scientific Discoveries'
+				image={sectionImages.evidence}
+			/>
+		</div>
 	);
 }

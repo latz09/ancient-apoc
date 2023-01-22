@@ -1,5 +1,6 @@
 export const ancientMythOverview = {
 	title: 'The Great Flood: A Story Found in Cultures Worldwide',
+	category: 'ancient stories',
 	content: [
 		{
 			paragraph: {

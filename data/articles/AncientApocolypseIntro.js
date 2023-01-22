@@ -1,6 +1,7 @@
 export const ancientApocolypseIntro = {
 	title:
 		'Uncovering the truth behind ancient myths: The ancient apocalypse theory - A wild ride through history',
+	category: 'general',
 	content: [
 		{
 			paragraph: {
@@ -16,7 +17,11 @@ export const ancientApocolypseIntro = {
 				link: '/',
 				text: 'Hancock argues that this event was a global catastrophe that wiped out most of humanity and caused a "great forgetting" of advanced technological and spiritual knowledge. He suggests that this catastrophe was caused by a comet or asteroid impact, and that the evidence of this event can be found in the form of widespread destruction and the sudden disappearance of advanced cultures around the world.',
 			},
-			link: { text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence', type: 'internal', link: '/articles/ancient-apocalypse/corsettis-theory' },
+			link: {
+				text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence',
+				type: 'internal',
+				link: '/articles/ancient-apocalypse/corsettis-theory',
+			},
 		},
 		{
 			paragraph: {
@@ -24,7 +29,11 @@ export const ancientApocolypseIntro = {
 				link: '/',
 				text: 'One of the key pieces of evidence that Hancock cites in support of this theory is the widespread occurrence of a layer of sediment containing high levels of iridium, a metal that is rare on Earth but common in comets and asteroids. This layer, known as the "iridium layer," has been found at sites around the world, including in Africa, Asia, and North and South America, and is believed to be the result of a massive impact event.',
 			},
-			link: { text: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer', type: 'internal', link: '/articles/ancient-apocalypse/iridiumLayer' },
+			link: {
+				text: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
+				type: 'internal',
+				link: '/articles/ancient-apocalypse/iridiumLayer',
+			},
 		},
 		{
 			paragraph: {
@@ -32,7 +41,11 @@ export const ancientApocolypseIntro = {
 				link: '/',
 				text: 'Another piece of evidence that Hancock cites is the existence of ancient myths and legends that seem to describe a catastrophic event that occurred in the distant past. Many cultures around the world have stories that describe a great flood, a massive fire, or a celestial impact, which Hancock argues could be memories of the ancient apocalypse.',
 			},
-			link: { text: 'The Great Flood: A Story Found in Cultures Worldwide', type: 'internal', link: '/articles/ancient-apocalypse/ancient-myths/ancient-myth-theory' },
+			link: {
+				text: 'The Great Flood: A Story Found in Cultures Worldwide',
+				type: 'internal',
+				link: '/articles/ancient-apocalypse/ancient-myths/ancient-myth-theory',
+			},
 		},
 		{
 			paragraph: {

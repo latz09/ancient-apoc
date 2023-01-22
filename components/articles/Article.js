@@ -4,7 +4,7 @@ import ArticleCard from './ArticleCard';
 
 const Article = ({ data }) => {
 	return (
-		<div className='grid lg:grid-cols-5 max-w-7xl mx-8 lg:mx-auto mb-24 gap-8 place-items-center '>
+		<div className='grid lg:grid-cols-5 max-w-[90rem] gap-16 m-8 lg:mx-auto mb-24  place-items-center  '>
 			<div className='grid gap-4 text-2xl mb-24 lg:col-span-3 lg:place-self-start'>
 				<h1 className='font-bold text-4xl mb-4'>{data.title}</h1>
 				{data.content.map((section, index) => (
@@ -18,7 +18,7 @@ const Article = ({ data }) => {
 					</div>
 				))}
 			</div>
-			<div className=" lg:col-span-2 grid gap-8 lg:ml-8">
+			<div className=" lg:col-span-2 grid gap-8 w-4/5 place-self-end">
 				{articleCards.map((article, index) => (
 					<div key={index}>
 							<ArticleCard

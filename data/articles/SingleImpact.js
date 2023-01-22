@@ -1,6 +1,7 @@
 export const singleImpact = {
 	title:
 		'Did a single, massive impact event change human history?',
+		category: 'general',
 	content: [
 		{
 			paragraph: {
