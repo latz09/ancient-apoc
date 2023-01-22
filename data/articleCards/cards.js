@@ -32,7 +32,7 @@ export const articleCards = [
         title: 'A Catastrophic Event Described in Ancient Cultures Worldwide',
         category: 'ancient stories',
         tease: 'Discover the shocking truth behind the ancient tale of the great flood: Could it be based on a real historical event?',
-        link: '/articles/ancient-apocalypse/ancient-myths/ancient-myth-theory'
+        link: '/articles/ancient-apocalypse/ancient-myths/greatFloods'
     },
     {
         title: 'Did a single, massive impact event change human history?',
