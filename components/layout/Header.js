@@ -5,7 +5,7 @@ const Header = () => {
 		<div className='  text-darkblue h-[40vh] lg:h-[50vh] grid place-items-center '>
 			<div className='max-w-7xl mx-auto'>
 				<motion.div
-					className=' grid  gap-4 tracking-wider'
+					className=' grid  gap-4 tracking-wider mx-4'
 					initial={{ opacity: 0.3, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ delay: 0.2, duration: 1.4 }}
