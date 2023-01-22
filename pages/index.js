@@ -1,10 +1,11 @@
 import { articleCards, sectionImages } from '../data/articleCards/cards';
-import generalSectionImage from '../public/images/Sections/general.jpg';
+import Header from '../components/layout/Header'
 import Section from '../components/layout/Section';
 
 export default function Home() {
 	return (
 		<div className='grid '>
+			<Header />
 			<Section
 				allArticleCards={articleCards}
 				category={'general'}

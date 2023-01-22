@@ -1,12 +1,15 @@
-import Link from 'next/link';
-
+import { motion } from 'framer-motion';
 
 const Header = () => {
 	return (
-		<div className='  text-darkblue '>
-			<Navbar />
+		<div className='  text-darkblue h-[50vh] grid place-items-center '>
 			<div className='max-w-7xl mx-auto'>
-				<div className=' grid gap-4  tracking-wider py-12'>
+				<motion.div
+					className=' grid gap-4  tracking-wider py-12'
+					initial={{ opacity: .3, scale: .8 }}
+					animate={{ opacity: 1, scale: 1 }}
+					transition={{ delay: 0.2, duration: 1.4 }}
+				>
 					<h2 className='text-6xl'>Lost Knowledge of the Apocalypse</h2>
 					<div
 						initial={{ opacity: 0 }}
@@ -20,33 +23,16 @@ const Header = () => {
 						</span>{' '}
 						<h1 className='font-bold  '>Ancient Apocalypse theory</h1>
 					</div>
-				</div>
+					<motion.div
+						className='border-b-2 opacity-20 pb-8  ml-24 border-darkblue'
+						initial={{ opacity: 1, scale: 1.1 }}
+						animate={{ opacity: 0.3, scale: 1 }}
+						transition={{ delay: 1.1, duration: 1.4 }}
+					/>
+				</motion.div>
 			</div>
 		</div>
 	);
 };
 
 export default Header;
-
-const Navbar = () => {
-	return (
-		<div className='max-w-[90rem] mx-auto py-4'>
-			<div className='flex'>
-				<div>
-					<Logo />
-				</div>
-				<div></div>
-			</div>
-		</div>
-	);
-};
-
-const Logo = () => {
-	return (
-		<Link href={'/'}>
-			<div className='px-4 py-2  text-4xl border-darkblue font-light italic border-y hover:scale-105 transition duration-700 cursor-pointer'>
-				<span>Lost Knowledge</span>
-			</div>
-		</Link>
-	);
-};

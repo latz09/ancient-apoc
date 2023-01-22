@@ -1,4 +1,4 @@
-const greatFloods = {
+export const greatFloods = {
 	title:
 		'Uncovering the truth behind ancient myths: The ancient apocalypse theory - A wild ride through history',
 		category: 'ancient stories',
