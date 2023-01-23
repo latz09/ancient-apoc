@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ancient-apocalypse.com/
+
+# Sitemaps
+Sitemap: https://www.ancient-apocalypse.com/sitemap.xml
