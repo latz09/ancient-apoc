@@ -7,10 +7,7 @@ const ArticleCard = ({ title, tease, link }) => {
 			<Link href={link}>
 				<div className='cursor-pointer grid gap-4 mx-4 md:scale-95 md:hover:scale-105 transition duration-700'>
 					<div className='text-xl lg:text-3xl font-bold '>{title}</div>
-					<div>
-						<SocialShares url=''/>
-					</div>
-					<div className="md:text-xl font-semibold opacity-50">{tease}</div>
+					<div className='md:text-xl font-semibold opacity-50'>{tease}</div>
 				</div>
 			</Link>
 		</>
