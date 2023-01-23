@@ -1,7 +1,6 @@
 export const greatFloods = {
-	title:
-		'A Catastrophic Event Described in Ancient Cultures Worldwide',
-		category: 'ancient stories',
+	title: 'A Catastrophic Event Described in Ancient Cultures Worldwide',
+	category: 'ancient stories',
 	content: [
 		{
 			paragraph: {
@@ -13,8 +12,8 @@ export const greatFloods = {
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '/',
+				phraseToLink: 'Sumerian creation epic',
+				link: 'https://en.wikipedia.org/wiki/Sumerian_creation_myth',
 				text: 'The ancient Sumerians, for example, have a story of a great flood that was sent by the gods to punish humanity for their wickedness. The story is told in the Sumerian creation epic, the "Enki and Ninmah," which describes how the god Enki warned the king of Shuruppak of the impending flood and instructed him to build a boat to save himself and his family.',
 			},
 			link: { text: '', type: 'external', link: '' },
@@ -25,12 +24,16 @@ export const greatFloods = {
 				link: '/',
 				text: 'Similarly, the ancient Babylonians have a story of a great flood that is told in the epic of Gilgamesh. According to this story, the gods decided to send a great flood to destroy the earth and all its inhabitants, with only a few select individuals being spared. The hero of the story, Gilgamesh, is warned by the god Ea and builds a boat to save himself and his family.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: {
+				text: 'The Flood of Gilgamesh: An Apocalyptic Legend from Ancient Mesopotamia',
+				type: 'internal',
+				link: '/ancient-stories/articles/epicOfGilgamesh',
+			},
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '/',
+				phraseToLink: 'great flood',
+				link: 'https://en.wikipedia.org/wiki/Noah%27s_Ark',
 				text: 'The Hebrews also have a story of a great flood that is told in the book of Genesis. According to this story, God decided to destroy the earth and all its inhabitants because of their wickedness, with only a few select individuals being saved in the ark built by Noah.',
 			},
 			link: { text: '', type: 'external', link: '' },
@@ -57,7 +60,7 @@ export const greatFloods = {
 				link: '/',
 				text: 'While the true origins of the story of the great flood remain a mystery, it is clear that this tale has had a profound impact on the history of humanity.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Fire and War in the Mahabharata: An Ancient Hindu Story of Apocalypse', type: 'internal', link: '/ancient-stories/articles/mahabharata' },
 		},
 	],
 };

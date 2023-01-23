@@ -4,11 +4,11 @@ export const devestatingConsequences = {
 	content: [
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '',
-				text: 'The ancient apocalypse, also known as the K-T event, was a global catastrophe that occurred approximately 65 million years ago. The event is believed to have been caused by a massive asteroid impact, which created an iridium layer around the Earth. This layer is a telltale sign of a catastrophic event, as iridium is a rare element on Earth, but is commonly found in asteroids and comets.',
+				phraseToLink: 'K-T event,',
+				link: 'https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event',
+				text: 'Around 65 million years ago, Earth experienced a global catastrophe that is believed to have been caused by a massive asteroid impact. This event left behind an iridium layer around the Earth, which is a telltale sign of a catastrophic event. Iridium is a rare element on Earth, but is commonly found in asteroids and comets. This event, known as the K-T event, is widely accepted as the cause of the mass extinction that wiped out the dinosaurs. However, there are theories that suggest that similar catastrophic events have occurred multiple times in Earths history, known as the ancient apocalypse theory. These events would have had a devastating impact on the planet and its inhabitants, shaping the course of evolution and shaping the world as we know it today.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer', type: 'internal', link: '/evidence/articles/iridiumLayer' },
 		},
 		{
 			paragraph: {
@@ -36,11 +36,11 @@ export const devestatingConsequences = {
 		},
 		{
 			paragraph: {
-				phraseToLink: '',
-				link: '',
+				phraseToLink: 'iridium layer',
+				link: 'https://en.wikipedia.org/wiki/Iridium_anomaly',
 				text: 'The discovery of the iridium layer and the existence of ancient ruins and artifacts that show signs of intense heat and pressure provide strong evidence for the theory of the ancient apocalypse. This event serves as a reminder of the destructive power of nature and the fragility of life on Earth. It also highlights the importance of understanding and studying the potential dangers that threaten our planet, such as asteroid impacts, in order to protect the Earth and its inhabitants from future catastrophe.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence', type: 'external', link: '/general/articles/corsettis-theory' },
 		},
 	],
 };

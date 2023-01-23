@@ -47,12 +47,30 @@ export const articleCards = [
         tease: ' Gobekli Tepe reveals evidence of an advanced civilization that existed before the collapse caused by a massive impact event, as proposed by Graham Hancock',
         link: '/example-locations/articles/gobekliTepe'
     },
+    {
+        title: 'The Stone Circles of Gobekli Tepe: Challenging Our Understanding of Human History',
+        category: 'example locations',
+        tease: 'Step back in time and explore the intricate carvings of Gobekli Tepe - the oldest known human-made religious structure in the world',
+        link: '/example-locations/articles/gobekliTepeCircles'
+    },
   
     {
         title: 'The Great Extinction: The Aftermath of the Ancient Apocalypse',
         category: 'evidence',
         tease: 'The ancient apocalypse, also known as the K-T event, wiped out 75% of Earths species. Learn about the environmental and climatic changes that occurred after the asteroid impact and how it paved the way for the emergence of new life forms?',
         link: '/evidence/articles/devestating-consequences'
+    },
+    {
+        title: 'The Flood of Gilgamesh: An Apocalyptic Legend from Ancient Mesopotamia',
+        category: 'ancient stories',
+        tease: 'Learn about the ancient epic of Gilgamesh and its powerful message of facing the end of the world and the search for immortality',
+        link: '/ancient-stories/articles/epicOfGilgamesh'
+    },
+    {
+        title: 'Fire and War in the Mahabharata: An Ancient Hindu Story of Apocalypse',
+        category: 'ancient stories',
+        tease: 'Discover the ancient Hindu epic of the Mahabharata and its powerful story of a catastrophic event that destroys the world through fire and war',
+        link: '/ancient-stories/articles/mahabharata'
     },
   
    
