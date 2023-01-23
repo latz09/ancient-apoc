@@ -2,7 +2,7 @@ export const corsettisTheory = {
 	title:
 		'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence',
 		category: 'general',
-		pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
+		pageLink: 'general/articles/corsettis-theory',
 	content: [
 		{
 			paragraph: {

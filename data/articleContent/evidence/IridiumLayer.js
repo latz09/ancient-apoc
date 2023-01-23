@@ -2,7 +2,7 @@ export const iridiumLayer = {
 	title:
 		'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
 	category: 'evidence',
-	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
+	pageLink: 'evidence/articles/iridiumLayer',
 	content: [
 		{
 			paragraph: {

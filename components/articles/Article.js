@@ -7,10 +7,11 @@ const Article = ({ data }) => {
 	
 	return (
 		<div className='grid lg:grid-cols-5 max-w-[90rem] lg:gap-16 m-4 lg:m-8 lg:mx-auto mb-24  place-items-center  '>
+			
 			<article className='grid gap-4 text-2xl mb-24 lg:col-span-3 lg:place-self-start lg:mx-4'>
 				<header>
 					<h1 className='font-bold text-2xl lg:text-4xl mb-4'>{data.title}</h1>
-					<SocialShares url={data.pageLink}/>
+					<SocialShares url={data.pageLink} title={data.title}/>
 				</header>
 				{data.content.map((section, index) => (
 					<div key={index} className='grid text-base sm:text-lg md:text-xl'>

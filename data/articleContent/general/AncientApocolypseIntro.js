@@ -2,7 +2,7 @@ export const ancientApocolypseIntro = {
 	title:
 		'Uncovering the truth behind ancient myths: The ancient apocalypse theory - A wild ride through history',
 	category: 'general',
-	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
+	pageLink: 'general/articles/ancient-apocalypse-theory',
 	content: [
 		{
 			paragraph: {

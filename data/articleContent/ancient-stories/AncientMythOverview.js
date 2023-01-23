@@ -1,7 +1,7 @@
 export const ancientMythOverview = {
 	title: 'The Great Flood: A Story Found in Cultures Worldwide',
 	category: 'ancient stories',
-	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
+	pageLink: 'ancient-stories/articles/ancient-myth-theory',
 	content: [
 		{
 			paragraph: {

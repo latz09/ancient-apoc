@@ -1,7 +1,7 @@
 export const greatFloods = {
 	title: 'A Catastrophic Event Described in Ancient Cultures Worldwide',
 	category: 'ancient stories',
-	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
+	pageLink: 'ancient-stories/articles/greatFloods',
 	content: [
 		{
 			paragraph: {
