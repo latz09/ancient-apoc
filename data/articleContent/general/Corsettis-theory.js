@@ -2,6 +2,7 @@ export const corsettisTheory = {
 	title:
 		'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence',
 		category: 'general',
+		pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {
@@ -17,7 +18,7 @@ export const corsettisTheory = {
 				link: 'https://en.wikipedia.org/wiki/Iridium',
 				text: 'One of the key pieces of evidence cited by Corsetti in support of his theory of an ancient apocalypse is the presence of a layer of iridium in the Earths crust. Iridium is a rare element that is found in relatively high concentrations in comets and asteroids, but is relatively rare on Earth. The discovery of a layer of iridium in the Earths crust is therefore considered to be strong evidence for an impact event.',
 			},
-			link: { text:'The Smoking Gun of the Ancient Apocalypse: Uncovering the Turth Behind the Iridium Layer', type: 'internal', link: '/evidence/articles/iridiumLayer' },
+			link: { text:'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth Behind the Iridium Layer', type: 'internal', link: '/evidence/articles/iridiumLayer' },
 		},
 		{
 			paragraph: {

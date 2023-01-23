@@ -1,7 +1,8 @@
 export const iridiumLayer = {
 	title:
 		'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
-		category: 'evidence',
+	category: 'evidence',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {
@@ -25,7 +26,11 @@ export const iridiumLayer = {
 				link: '',
 				text: 'Some scientists have proposed alternative explanations for the presence of the iridium layer, such as volcanic eruptions or meteor showers. However, the widespread distribution and high levels of iridium found in the layer, as well as the presence of other impact-related materials such as shocked quartz, provide strong evidence for a single, massive impact event.',
 			},
-			link: { text: 'Did a single, massive impact event change human history?', type: 'internal', link: '/general/articles/single-impact-theory' },
+			link: {
+				text: 'Did a single, massive impact event change human history?',
+				type: 'internal',
+				link: '/general/articles/single-impact-theory',
+			},
 		},
 		{
 			paragraph: {
@@ -49,7 +54,11 @@ export const iridiumLayer = {
 				link: '',
 				text: 'While the ancient apocalypse theory remains controversial, the discovery of the "iridium layer" adds more weight to the idea that a cataclysmic event occurred in the distant past, shaping the course of human history. Further research and discovery may one day help us to understand the true nature of this catastrophic event and its impact on human civilization.',
 			},
-			link: { text: 'A Catastrophic Event Described in Ancient Cultures Worldwide', type: 'internal', link: '/ancient-stories/articles/greatFloods' },
+			link: {
+				text: 'A Catastrophic Event Described in Ancient Cultures Worldwide',
+				type: 'internal',
+				link: '/ancient-stories/articles/greatFloods',
+			},
 		},
 	],
 };

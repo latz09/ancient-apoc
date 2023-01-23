@@ -2,6 +2,7 @@ export const mahabharata = {
 	title:
 		'Fire and War in the Mahabharata: An Ancient Hindu Story of Apocalypse',
 	category: 'ancient stories',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {

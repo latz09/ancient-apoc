@@ -1,6 +1,7 @@
 export const gobekliTepe = {
 	title: 'Gobekli Tepe: Proof of an ancient apocalypse?',
 	category: 'example locations',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {

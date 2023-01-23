@@ -1,7 +1,7 @@
-import generalImage from '../../public/images/Sections/general.webp'
-import exampleLocationImage from '../../public/images/Sections/exampleLocations.jpg'
-import ancientStoryImage from '../../public/images/Sections/ancientStories.jpg'
-import evidenceImage from '../../public/images/Sections/evidence.webp'
+import generalImage from '../../public/images/Sections/general/ancient-apocalypse.webp'
+import exampleLocationImage from '../../public/images/Sections/exampleLocations/ancient-apocalypse.jpg'
+import ancientStoryImage from '../../public/images/Sections/ancientStories/ancient-apocalypse.jpg'
+import evidenceImage from '../../public/images/Sections/evidence/ancient-apocalypse.webp'
 
 export const articleCards = [
     {

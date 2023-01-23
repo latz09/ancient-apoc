@@ -5,7 +5,7 @@ const SectionHeader = ({ title, subtitle, image }) => {
 		<div className='relative w-full  h-[25vh] lg:h-[40vh]  '>
 			<Image
 				src={image}
-				alt={title}
+				alt={'ancient apocalypse'}
 				layout='fill'
 				objectFit='cover'
 				objectPosition='center'

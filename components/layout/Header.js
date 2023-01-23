@@ -23,10 +23,10 @@ const Header = ({image}) => {
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ delay: 0.2, duration: 1.4 }}
 				>
-					<h2 className='text-4xl lg:text-6xl'>
+					<h2 className='text-4xl lg:text-7xl'>
 						Lost Knowledge of the Apocalypse
 					</h2>
-					<div className='text-lg lg:text-2xl'>
+					<div className='text-lg lg:text-3xl'>
 						<span>
 							{' '}
 							A collection of theories, stories and truths behind the:
@@ -40,7 +40,7 @@ const Header = ({image}) => {
 								animate={{ scale: 1, opacity: 1 }}
 								transition={{duration: 1.2, repeat: Infinity, repeatType:'mirror'}}
 							>
-								Ancient Apocalypse theory
+								Ancient Apocalypse 
 							</motion.h1>
 						</Link>
 					</div>

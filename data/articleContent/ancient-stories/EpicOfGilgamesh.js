@@ -1,6 +1,7 @@
 export const epicOfGilgamesh= {
 	title: 'The Flood of Gilgamesh: An Apocalyptic Legend from Ancient Mesopotamia',
 	category: 'ancient stories',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {

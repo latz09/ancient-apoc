@@ -1,6 +1,7 @@
 export const gobekliTepeCircles = {
 	title: 'The Stone Circles of Gobekli Tepe: Challenging Our Understanding of Human History',
 	category: 'example locations',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {

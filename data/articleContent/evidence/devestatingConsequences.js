@@ -1,6 +1,7 @@
 export const devestatingConsequences = {
 	title: 'The Great Extinction: The Aftermath of the Ancient Apocalypse',
 	category: 'evidence',
+	pageLink: 'https://en.wikipedia.org/wiki/Ancient_Apocalypse',
 	content: [
 		{
 			paragraph: {
