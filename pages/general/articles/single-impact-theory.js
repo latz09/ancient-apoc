@@ -1,5 +1,5 @@
 import Article from "../../../components/articles/Article";
-import {singleImpact} from '../../../data/articles/SingleImpact'
+import {singleImpact} from '../../../data/articleContent/general/SingleImpact'
 
 const singleImpactPage = () => {
     return ( <>

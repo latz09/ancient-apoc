@@ -17,7 +17,7 @@ export const corsettisTheory = {
 				link: 'https://en.wikipedia.org/wiki/Iridium',
 				text: 'One of the key pieces of evidence cited by Corsetti in support of his theory of an ancient apocalypse is the presence of a layer of iridium in the Earths crust. Iridium is a rare element that is found in relatively high concentrations in comets and asteroids, but is relatively rare on Earth. The discovery of a layer of iridium in the Earths crust is therefore considered to be strong evidence for an impact event.',
 			},
-			link: { text:'The Smoking Gun of the Ancient Apocalypse: Uncovering the Turth Behind the Iridium Layer', type: 'external', link: '/articles/ancient-apocalypse/devestating-consequences' },
+			link: { text:'The Smoking Gun of the Ancient Apocalypse: Uncovering the Turth Behind the Iridium Layer', type: 'internal', link: '/evidence/articles/iridiumLayer' },
 		},
 		{
 			paragraph: {
@@ -25,7 +25,7 @@ export const corsettisTheory = {
 				link: '',
 				text: 'The discovery of this iridium layer and the existence of ancient ruins and artifacts that show signs of intense heat and pressure, indicate that the ancient apocalypse was a global event that affected the entire world. This event would have had devastating consequences for the Earths climate and environment, wiping out much of the planets life and altering the course of human history.',
 			},
-			link: { text: 'The Great Extinction: The Aftermath of the Ancient Apocalypse', type: 'external', link: '' },
+			link: { text: 'The Great Extinction: The Aftermath of the Ancient Apocalypse', type: 'internal', link: '/evidence/articles/devestating-consequences' },
 		},
 		{
 			paragraph: {
@@ -57,7 +57,7 @@ export const corsettisTheory = {
 				link: '',
 				text: 'Corsetti also draws attention to the numerous ancient texts and legends that speak of a great flood or other catastrophic event, which could be connected to the ancient apocalypse. He argues that the impact of the comet or asteroid would have caused massive wildfires, tsunamis, and other natural disasters, resulting in widespread destruction and altering the course of human history.',
 			},
-			link: { text: 'The Great Flood:  A Story Found in Cultures Worldwide', type: 'internal', link: '/articles/ancient-apocalypse/ancient-myths/ancient-myth-theory' },
+			link: { text: 'The Great Flood:  A Story Found in Cultures Worldwide', type: 'internal', link: '/ancient-stories/articles/ancient-myth-theory' },
 		},
 		{
 			paragraph: {

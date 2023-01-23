@@ -1,6 +1,6 @@
 export const devestatingConsequences = {
-	title: 'Gobekli Tepe: Proof of a ancient apocalypse?',
-	category: 'example locations',
+	title: 'The Great Extinction: The Aftermath of the Ancient Apocalypse',
+	category: 'evidence',
 	content: [
 		{
 			paragraph: {

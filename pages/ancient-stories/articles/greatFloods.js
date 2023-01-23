@@ -1,5 +1,5 @@
-import Article from "../../../../components/articles/Article";
-import { greatFloods } from "../../../../data/articles/GreatFloods";
+import Article from "../../../components/articles/Article";
+import { greatFloods } from "../../../data/articleContent/ancient-stories/GreatFloods";
 
 const greatFloodPage = () => {
 	return (

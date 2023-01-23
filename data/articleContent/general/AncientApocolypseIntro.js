@@ -20,7 +20,7 @@ export const ancientApocolypseIntro = {
 			link: {
 				text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence',
 				type: 'internal',
-				link: '/articles/ancient-apocalypse/corsettis-theory',
+				link: '/general/articles/corsettis-theory',
 			},
 		},
 		{
@@ -32,7 +32,7 @@ export const ancientApocolypseIntro = {
 			link: {
 				text: 'The Smoking Gun of the Ancient Apocalypse: Uncovering the Truth behind the Iridium Layer',
 				type: 'internal',
-				link: '/articles/ancient-apocalypse/iridiumLayer',
+				link: '/evidence/articles/iridiumLayer',
 			},
 		},
 		{
@@ -44,7 +44,7 @@ export const ancientApocolypseIntro = {
 			link: {
 				text: 'The Great Flood: A Story Found in Cultures Worldwide',
 				type: 'internal',
-				link: '/articles/ancient-apocalypse/ancient-myths/ancient-myth-theory',
+				link: '/ancient-stories/articles/ancient-myth-theory',
 			},
 		},
 		{
@@ -69,7 +69,7 @@ export const ancientApocolypseIntro = {
 				link: '/',
 				text: 'Continue the ride by exploring the stories.',
 			},
-			link: { text: 'Gobekli Tepe: Proof of an ancient apocalypse', type: 'internal', link: '/articles/ancient-apocalypse/gobekliTepe' },
+			link: { text: 'Gobekli Tepe: Proof of an ancient apocalypse', type: 'internal', link: '/example-locations/articles/gobekliTepe' },
 		},
 	],
 };

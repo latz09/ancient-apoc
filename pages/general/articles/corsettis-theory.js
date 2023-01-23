@@ -1,5 +1,5 @@
 import Article from '../../../components/articles/Article';
-import { corsettisTheory } from '../../../data/articles/Corsettis-theory';
+import { corsettisTheory } from '../../../data/articleContent/general/Corsettis-theory';
 
 const corsettisTheoryPage = () => {
 	return (

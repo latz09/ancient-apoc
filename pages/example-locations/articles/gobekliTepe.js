@@ -1,5 +1,5 @@
 import Article from '../../../components/articles/Article';
-import { gobekliTepe } from '../../../data/articles/GobekliTepe';
+import { gobekliTepe } from '../../../data/articleContent/example-locations/GobekliTepe';
 
 const gobekliTepePage = () => {
 	return (

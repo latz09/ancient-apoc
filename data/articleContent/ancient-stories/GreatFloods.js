@@ -1,6 +1,6 @@
 export const greatFloods = {
 	title:
-		'Uncovering the truth behind ancient myths: The ancient apocalypse theory - A wild ride through history',
+		'A Catastrophic Event Described in Ancient Cultures Worldwide',
 		category: 'ancient stories',
 	content: [
 		{

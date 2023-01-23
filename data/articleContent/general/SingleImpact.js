@@ -1,15 +1,18 @@
 export const singleImpact = {
-	title:
-		'Did a single, massive impact event change human history?',
-		category: 'general',
+	title: 'Did a single, massive impact event change human history?',
+	category: 'general',
 	content: [
 		{
 			paragraph: {
 				phraseToLink: 'Graham Hancock',
-				link: '',
+				link: 'https://grahamhancock.com/',
 				text: 'Graham Hancock is a British author and researcher who has proposed the idea of a single, massive impact event that took place around 10,800 BC. He argues that this event was the cause of widespread destruction and chaos, leading to the collapse of ancient civilizations and the end of the last ice age',
 			},
-			link: { text: 'Uncovering the truth behind ancient myths:  The ancient apocalypse theory - A wild ride through history', type: 'external', link: '/articles/ancient-apocalypse/ancient-apocalypse-theory' },
+			link: {
+				text: 'Uncovering the truth behind ancient myths:  The ancient apocalypse theory - A wild ride through history',
+				type: 'internal',
+				link: '/general/articles/ancient-apocalypse-theory',
+			},
 		},
 		{
 			paragraph: {
@@ -17,7 +20,11 @@ export const singleImpact = {
 				link: 'https://en.wikipedia.org/wiki/Clovis_culture',
 				text: 'Hancock believes that this event, which he calls the "Gobekli Tepe Impact Event," was responsible for the collapse of ancient civilizations such as the Clovis Culture in North America and the end of the last ice age. He argues that this event was responsible for the widespread destruction and chaos that is often depicted in ancient myths and legends.',
 			},
-			link: { text: 'Gobekli Tepe: Proof of an ancient apocalypse?', type: 'internal', link: '/articles/ancient-apocalypse/gobekliTepe' },
+			link: {
+				text: '',
+				type: 'internal',
+				link: '',
+			},
 		},
 		{
 			paragraph: {
@@ -25,7 +32,11 @@ export const singleImpact = {
 				link: 'https://en.wikipedia.org/wiki/Nanodiamond',
 				text: 'Hancocks theory is based on a variety of evidence, including the discovery of a layer of nanodiamonds in North America, which he believes is evidence of a comet or asteroid impact. He also draws on ancient myths and legends from cultures around the world, which he argues contain clues about a catastrophic event that occurred 12,000 years ago.',
 			},
-			link: { text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence', type: 'internal', link: '/articles/ancient-apocalypse/corsettis-theory' },
+			link: {
+				text: '',
+				type: 'internal',
+				link: '',
+			},
 		},
 		{
 			paragraph: {
@@ -33,7 +44,11 @@ export const singleImpact = {
 				link: '',
 				text: 'Hancocks research takes him on a journey to various ancient sites around the world, such as Gobekli Tepe in Turkey and the ruins of ancient cities in Egypt, in search of evidence of this catastrophic event. He believes that the ancient structures and artifacts found at these sites hold clues about the advanced civilizations that existed before the impact and the chaos that ensued afterwards.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: {
+				text: 'Gobekli Tepe: Proof of an ancient apocalypse?',
+				type: 'internal',
+				link: '/example-locations/articles/gobekliTepe',
+			},
 		},
 		{
 			paragraph: {
@@ -65,7 +80,7 @@ export const singleImpact = {
 				link: '',
 				text: 'Despite the skepticism, Hancocks work has sparked a renewed interest in the possibility of a single, massive impact event in human history. His research continues to inspire new discoveries and research as scientists and researchers work to uncover the truth about our past. Whether or not his theory is fully proven, it is clear that the world has seen great changes in the past and that these changes have shaped human history.',
 			},
-			link: { text: '', type: 'external', link: '' },
+			link: { text: 'Corsettis theory of ancient apocalypse caused by comet or asteroid impact gains traction with new evidence', type: 'internal', link: '/general/articles/single-impact-theory' },
 		},
 	],
 };

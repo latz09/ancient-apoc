@@ -1,5 +1,5 @@
 import Article from '../../../components/articles/Article';
-import { ancientApocolypseIntro } from '../../../data/articles/AncientApocolypseIntro';
+import { ancientApocolypseIntro } from '../../../data/articleContent/general/AncientApocolypseIntro';
 
 const ancientApocTheory = () => {
 	return (

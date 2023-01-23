@@ -1,18 +1,14 @@
 import { articleCards, sectionImages } from '../data/articleCards/cards';
-import Header from '../components/layout/Header'
+import Header from '../components/layout/Header';
 import Section from '../components/layout/Section';
+import ArticleCard from '../components/articles/ArticleCard';
+import FirstSection from '../components/layout/FirstSection';
 
 export default function Home() {
 	return (
 		<div className='grid '>
-			<Header />
-			<Section
-				allArticleCards={articleCards}
-				category={'general'}
-				title='Apocalyptic Ancients'
-				subtitle=' Understanding the End of the Worlds Past'
-				image={sectionImages.general}
-			/>
+			<Header image={sectionImages.general}/>
+			<FirstSection allArticleCards={articleCards} category={'general'} />
 			<Section
 				allArticleCards={articleCards}
 				category={'evidence'}
@@ -34,7 +30,6 @@ export default function Home() {
 				subtitle='Uncovering the End of the Worlds Past in Ancient Narratives'
 				image={sectionImages.ancientStory}
 			/>
-			
 		</div>
 	);
 }

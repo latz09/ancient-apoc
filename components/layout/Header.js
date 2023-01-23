@@ -1,11 +1,23 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 
-const Header = () => {
+
+
+const Header = ({image}) => {
 	return (
-		<div className='  text-darkblue h-[40vh] lg:h-[50vh] grid place-items-center '>
-			<div className='max-w-7xl mx-auto'>
-				<motion.div
+		<div className='relative w-full  h-[40vh] lg:h-[60vh]  '>
+			<Image
+				src={image}
+				alt={'ancient apocalypse'}
+				layout='fill'
+				objectFit='cover'
+				objectPosition='center'
+				placeholder='blur'
+				priority='true'
+			/>
+			<div className='relative grid place-items-center h-full bg-black/70 text-lightblue '>
+			<motion.div
 					className=' grid  gap-4 tracking-wider mx-4'
 					initial={{ opacity: 0.3, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
@@ -38,4 +50,5 @@ const Header = () => {
 	);
 };
 
-export default Header;
+
+export default Header
