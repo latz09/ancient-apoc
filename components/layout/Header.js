@@ -16,7 +16,7 @@ const Header = ({image}) => {
 				placeholder='blur'
 				priority='true'
 			/>
-			<div className='relative grid place-items-center h-full bg-black/70 text-lightblue '>
+			<div className='relative grid place-items-center h-full bg-black/50 text-lightblue '>
 			<motion.div
 					className=' grid  gap-4 tracking-wider mx-4'
 					initial={{ opacity: 0.3, scale: 0.8 }}
